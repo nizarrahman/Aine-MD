@@ -10,14 +10,14 @@ let [number, pesan] = text.split `|`
 
     let korban = `${number}`
     var nomor = m.sender
-    let spam1 = `*「 SUKSES 」*\n\nDari : wa.me/${korban}\nPesan : ${pesan}\n\n*${global.wm}*`
+    let spam1 = `\nDari : wa.me/${korban}\nPesan : ${pesan}\n\n*${global.wm}*`
 
     conn.reply(korban + '@s.whatsapp.net', spam1, m)
 
     let logs = `[!] Berhasil mengirim pesan wa ke nomor ${korban}`
     conn.reply(m.chat, logs, m)
 }
-handler.command = /^(pesan)$/i
+handler.command = /^(menfes)$/i
 handler.rowner = false
 handler.limit = true
 handler.premium = false

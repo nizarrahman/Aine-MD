@@ -52,8 +52,8 @@ Hai, %ucapan %name! 👋
   header: ' *%category*',
   body: ' • %cmd %islimit %isPremium',
   footer: '\n',
-  after: `*Made by ♡*
-*%npmname* | %version
+  after: `*Made in by *
+*Nizar Rahman* | %version
 ${'```%npmdesc```'}
 `,
 }

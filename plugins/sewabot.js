@@ -36,9 +36,9 @@ wa.me/${owner[0]}
   products:[{productId:'7487741964584083'}]}],
   headerImage: { productId: '7487741964584083',
   jpegThumbnail: baper },
-  businessOwnerJid: `6289654360447@s.whatsapp.net`
+  businessOwnerJid: `6281386945391@s.whatsapp.net`
   },
-  footerText: 'https://aiinne.github.io',
+  footerText: 'https://instagram.com/nizarrrahman.f_',
   }},{})
   conn.relayMessage(prepare.key.remoteJid,prepare.message,{messageId:prepare.key.id})
   const data = global.owner.filter(([id, isCreator]) => id && isCreator)

@@ -88,7 +88,7 @@ npm update
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/Aiinne/Aine-MD
+git clone https://github.com/nizarrahman/Bot-Punya-Nizar1
 cd Aiinne-MD
 npm install
 npm update
